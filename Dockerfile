@@ -1,7 +1,7 @@
-from python:3.8
+FROM python:3.8
 
-add main.py .
+ADD main.py .
 
-run pip install requests beautifulsoup4
+RUN pip install requests beautifulsoup4
 
-cmd [ "python", "./main.py"]
+CMD [ "python", "./main.py"]
