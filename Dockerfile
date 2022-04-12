@@ -1,7 +1,7 @@
 FROM python:latest
 
-ADD main.py .
+ADD main.py
 
 RUN pip install requests beautifulsoup4
 
-CMD [ "python", "./main.py"]
+CMD [ "python", "main.py"]
