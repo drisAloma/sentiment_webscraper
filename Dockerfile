@@ -2,6 +2,6 @@ FROM python:latest
 
 ADD main.py .
 
-RUN pip install requests beautifulsoup4
+RUN pip install pandas requests beautifulsoup4
 
 CMD [ "python", "./main.py"]
